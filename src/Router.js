@@ -5,19 +5,18 @@ const ProductList = ()=>import('./pages/productList')
 const routes = [  
     {   
         path: '/',    
-        component: Index  
-    },  
+        component: Index,  
+    }, 
     {   
         path: '/index',    
         name: 'index',  
-        component: Index  
+        component: Index,  
     }, 
     {   
         path: '/productList',    
         name: 'productList',  
         component: ProductList  
-    }, 
-     
+    } 
 ]
 const router = createRouter({  
     history: createWebHistory(),  
