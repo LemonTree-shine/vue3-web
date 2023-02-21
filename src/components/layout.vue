@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="main-contain-wrap">
       <router-view></router-view>
     </div>
     
@@ -66,5 +66,8 @@
           }
         }
     }
+  }
+  .main-contain-wrap{
+    padding-top: 86px;
   }
 </style>
